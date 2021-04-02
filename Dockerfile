@@ -1,17 +1,4 @@
-FROM mcr.microsoft.com/playwright:bionic
-
-# Install Headless Chrome
-#RUN apk update && apk add --no-cache nmap && \
-#    echo @edge http://nl.alpinelinux.org/alpine/edge/community >> /etc/apk/repositories && \
-#    echo @edge http://nl.alpinelinux.org/alpine/edge/main >> /etc/apk/repositories && \
-#    apk update && \
-#    apk add --no-cache \
-#    chromium \
-#    harfbuzz \
-#    "freetype>2.8" \
-#    ttf-freefont \
-#    nss
-
+FROM node:14-alpine
 
 # Create app directory
 WORKDIR /opt/app
