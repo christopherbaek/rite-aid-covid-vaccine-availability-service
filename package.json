@@ -1,0 +1,21 @@
+{
+  "name": "rite-aid-covid-vaccine-availability-service",
+  "version": "1.0.0",
+  "description": "Service to check the availability of COVID vaccination appointments at Walgreens.",
+  "main": "src/index.js",
+  "scripts": {
+    "devrun": "NODE_ENV=development node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:christopherbaek/rite-aid-covid-vaccine-availability-service.git"
+  },
+  "author": "Christopher Baek <christopher.baek@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "playwright": "^1.10.0",
+    "winston": "^3.3.3"
+  }
+}
